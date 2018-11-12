@@ -1,3 +1,43 @@
+        $.ajax({url:post_url,
+        type:'POST',
+        success:function(res){
+        console.log('返回成功',res)
+        console.log(res.msg);
+        $(that).next().text(res);
+        },
+        err:function(res){
+        $(that).next().text(res);
+        }
+        })
+
+    $("#mybutton1").click(function(){
+        console.log('点击成功');
+        $.ajax({url:"http://127.0.0.1:8000/testGET",
+        data:{
+
+        },
+        type:'GET',
+        success:function(res){
+        console.log('返回成功',res)
+        console.log(res.msg);
+        }
+        })
+    })
+        $("#mybutton3").click(function(){
+        console.log('点击成功');
+
+
+    })
+    <!--alert($(this).text);-->
+        <!--$.ajax({url:"http://127.0.0.1:8000/testPOST",-->
+
+        <!--type:'POST',-->
+        <!--success:function(res){-->
+        <!--console.log('返回成功',res)-->
+        <!--console.log(res.msg);-->
+        <!--}-->
+        <!--})-->
+
 # 关于本博客项目的一些版本及对应分支的调整并解答一些问题 #
 
 ----------

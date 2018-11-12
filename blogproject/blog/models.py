@@ -31,10 +31,14 @@ class Article(models.Model):
     title = models.CharField('文章标题',max_length=150,)
 
     summary = models.TextField('文章摘要')
+
+    html_body = models.TextField('文章内容html格式',editable=False)
     # 字数不限,文章内容输入内容为markdown文本，在提交的时候转为html字符串存入数据库
-    body = models.TextField('文章内容')
+    body = models.TextField('文章内容markdown格式')
     # 图片名称，在提交的时候添加图片地址存入数据库
     img_url=models.CharField('图片',max_length=255)
+
+    img_upload=models.ImageField('上传图片')
     # auto_now_add只会在创建时更新,以后都不会更新
     create_date = models.DateTimeField('创建时间',auto_now_add=True)
     # auto_now每次修改时都会更新时间

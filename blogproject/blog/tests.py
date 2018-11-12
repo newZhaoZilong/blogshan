@@ -1,24 +1,17 @@
-from django.test import TestCase
-
-# Create your tests here.
 import re
 
-from datetime import datetime,timedelta,timezone
-# from markdown.extensions.toc import TocExtension
-import markdown
-from blog.mytoc import TocExtension
-from django.utils.text import slugify
-with open('body.txt',mode='r',encoding='utf-8') as body_str:
-    # print(body_str.read())
-    body_txt = body_str.read()
 
 
+postData = {
+    'search':'nihao'
+}
 
-md = markdown.Markdown(extensions=[
-            'markdown.extensions.extra',
-            'markdown.extensions.codehilite',
-    TocExtension(baselevel = '3'),
-        ])
 
-md.convert(body_txt)
-print(md.toc)
+isSearch = postData.get('search')
+search_reg = re.compile(isSearch)
+
+if not (search_reg.search('nihao') or search_reg.search('nihao')):
+    print('存在')
+
+else:
+    print('不存在')
