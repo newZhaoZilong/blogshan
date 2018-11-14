@@ -1,123 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+<meta charset="utf-8">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-    .mydiv{
-        display:flex;
-        justify-content:center;
-        align-items:center;
-    }
-        button{
-        display:block;
-           width:200px;
-            height:50px;
-            color:white;
-            background-color:green;
-            margin:10px 200px;
-        }
-    </style>
+    <script src="../../static/blog/js/popper.js"></script>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="../../static/blog/css/bootstrap.css" rel="stylesheet">
+    <!--<link href="../../static/blog/css/font-awesome.css" rel="stylesheet">-->
+    <script src="../../static/blog/js/jquery.js"></script>
+    <!--<script src="../../static/blog/js/jquery.mousewheel.js"></script>-->
+
+    <script src="../../static/blog/js/vue.js"></script>
+    <script src="../../static/blog/js/ceshi.js"></script>
 </head>
+
 <body>
-这是首页
-
-<!--<button id="mybutton1">发送GET请求</button>-->
-<!--<button id="mybutton2">发送POST请求</button>-->
-<div class="mydiv">
-    <button id="mybutton31">getArticleList</button>
-    <div>category</div>
-</div>
-<div class="mydiv">
-    <button id="mybutton32">getArticleList</button>
-    <div>tag</div>
-</div>
-<div class="mydiv">
-    <button id="mybutton33">getArticleList</button>
-    <div>search</div>
-</div>
-<div class="mydiv">
-    <button id="mybutton34">getArticleList</button>
-    <div>什么都不传</div>
-</div>
-
-
-<div class="mydiv">
-    <button id="mybutton4">getArticleDetail</button>
-    <div></div>
-</div>
-<div class="mydiv">
-    <button id="mybutton5">getTagList</button>
-    <div></div>
-</div>
-<div class="mydiv">
-    <button id="mybutton6">getTagDetail</button>
-    <div></div>
-</div>
-<div class="mydiv">
-    <button id="mybutton7">getCategoryDetail</button>
-    <div></div>
-</div>
-<div class="mydiv">
-    <button id="mybutton8">getCarrouselList</button>
-    <div></div>
-</div>
-
-<script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
-<script>
-console.log('haha');
-var server_url = 'http://127.0.0.1:8000/';
-var callback = function(postData){
-    return function(){
-            console.log('点击成功');
-    var api_str = $(this).text();
-    var post_url = server_url+'blog/'+api_str+'/';
-    var that = this;
-        $.ajax({url:post_url,
-        type:'POST',
-        data:postData,
-        success:function(res){
-        console.log('返回成功',res)
-        console.log(res.msg);
-        $(that).next().text(JSON.stringify(res));
-        },
-        error:function(res){
-        console.log('shibai');
-        $(that).next().text(JSON.stringify(res));
-        }
-        })
-    // alert($(this).text());
-    }
-};
-$("button[id='mybutton31']").click(callback({
-        category_id:1
-        }))
-$("button[id='mybutton32']").click(callback({
-        tag_id:2
-        }))
-$("button[id='mybutton33']").click(callback({
-        search:'微信'
-        }))
-$("button[id='mybutton34']").click(callback({
-
-        }))
-$("button[id='mybutton4']").click(callback({
-        article_id:1
-        }))
-$("button[id='mybutton5']").click(callback({
-
-        }))
-$("button[id='mybutton6']").click(callback({
-        tag_id:1
-        }))
-$("button[id='mybutton7']").click(callback({
-        category_id:2
-        }))
-$("button[id='mybutton8']").click(callback({
-        category:'python'
-        }))
-
-</script>
-
-</body>
+<script type="text/javascript" src="../../static/blog/pages/index.js"></script></body>
+<script src="../../static/blog/js/bootstrap.js"></script>
 </html>

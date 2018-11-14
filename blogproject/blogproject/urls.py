@@ -21,6 +21,7 @@ from blog.views import getIndex,getDetail
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('index.html', getIndex),
+	path('detail.html', getDetail),
     path('', getIndex),
     path('blog/',include('blog.urls'))
 ]
