@@ -126,25 +126,26 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 
-MEDIA_ROOT = '/static/blog/images/'
-#
-# MEDIA_URL = '/static/blog/images/'
+# 这个路径对应img的上传到哪儿个文件夹下,是绝对路径
+MEDIA_ROOT = os.path.join(BASE_DIR, 'blog/static/blog/images')
+#这个url对应imgField返回的url路径的前缀,可以随便写,其实跟webpack
+MEDIA_URL = '/static/blog/images/'
 # 添加这个用于打印执行的sql语句
-LOGGING = {
-    'version': 1,
-    'disable_existing_loggers': False,
-    'handlers': {
-        'console': {
-            'class': 'logging.StreamHandler',
-        },
-    },
-    'loggers': {
-        'django.db.backends': {
-            'handlers': ['console'],
-            'level': 'DEBUG' if DEBUG else 'INFO',
-        },
-    },
-}
+#LOGGING = {
+ #   'version': 1,
+  #  'disable_existing_loggers': False,
+#    'handlers': {
+#        'console': {
+#            'class': 'logging.StreamHandler',
+ #       },
+ #   },
+ #   'loggers': {
+#        'django.db.backends': {
+ #           'handlers': ['console'],
+  #          'level': 'DEBUG' if DEBUG else 'INFO',
+ #       },
+#    },
+#}
 
 
 #跨域增加忽略

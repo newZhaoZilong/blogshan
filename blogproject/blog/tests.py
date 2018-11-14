@@ -1,17 +1,16 @@
-import re
+
+import os
+
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname('__file__')))
 
 
 
-postData = {
-    'search':'nihao'
-}
 
 
-isSearch = postData.get('search')
-search_reg = re.compile(isSearch)
-
-if not (search_reg.search('nihao') or search_reg.search('nihao')):
-    print('存在')
-
-else:
-    print('不存在')
+MEDIA_URL = '/media/'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+MEDIA_ROOT = os.path.join(BASE_DIR, 'blog/media')
+print('PROJECT_ROOT',PROJECT_ROOT)
+print('MEDIA_ROOT',MEDIA_ROOT)
+print('MEDIA_URL',MEDIA_URL)
+print('BASE_DIR',BASE_DIR)

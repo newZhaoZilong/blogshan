@@ -18,7 +18,7 @@ class ArticleAdmin(admin.ModelAdmin):
             'markdown.extensions.codehilite',
             TocExtension(),
         ])
-        obj.html_body = md.convert(obj.body)
+        obj.html_body = md.convert(obj.markdown_body)
         obj.toc = md.toc
         obj.save()
 

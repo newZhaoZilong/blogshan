@@ -41,8 +41,7 @@ def easyPost(func):
 def getArticleList(request):
     postData = request.POST
 
-    query_set = Article.objects.select_related('category').only('title', 'summary', 'category__name', 'img_url', 'id',
-                                                                'update_date').order_by('-update_date')
+    query_set = Article.objects.select_related('category').order_by('-update_date')
 
     if postData.get('category_id'):
         category_id = postData.get('category_id')
@@ -58,19 +57,20 @@ def getArticleList(request):
         search_reg = re.compile(isSearch)
 
     # 听说用iterator能节省一些内存
-    for article in query_set.iterator():
+    for article in query_set:
         if isSearch:
             # 如果是search,就判断搜索内容存不存在，如果不存在，就判断下一个
-            if not(search_reg.search(article.body) or search_reg.search(article.title)):
+            if not(search_reg.search(article.markdown_body) or search_reg.search(article.title)):
                 continue
         article_list.append({
             'title': article.title,
             'summary': article.summary,
             'update_date': article.update_date.strftime('%Y-%m-%d'),
             'category': article.category.name,
-            'imgUrl': article.img_url,
+            'imgUrl': article.img.url,
             'article_id': article.id,
-            'category_id':article.category.id
+            'category_id':article.category.id,
+            'read_times':article.read_times
         })
 
     return article_list
@@ -80,25 +80,30 @@ def getArticleList(request):
 @easyPost
 def getArticleDetail(request):
     # get后的结果就只是一个对象,tags是manager类型
-    article_detail = Article.objects.select_related('category').prefetch_related('tags').only('id','title','body','toc','category__name','update_date').get(id = request.POST['article_id'])
-    try:
-        next_id = article_detail.get_next_by_update_date().id
-    except:
-        next_id = ''
+    article_detail = Article.objects.select_related('category').prefetch_related('tags').get(id = request.POST['article_id'])
+
+    article_length = Article.objects.count()
+
+    next_id = 1 if (article_detail.id + 1 > article_length) else article_detail.id+1
+
     # 获取,only结果还是queryset,是可遍历的，遍历的结果是tag
     # tag_list = list(article_detail.tags.objects.extra(select={'tag_id': 'id'}).values('name', 'tag_id'))
-    tags_query = article_detail.tags.only('name','id')
-    tag_list = [{'name':x.name,'tag_id':x.id} for x in tags_query]
 
+    tag_list = [{'name':x.name,'tag_id':x.id} for x in article_detail.tags.all()]
+    article_detail.read_times += 1
+    article_detail.save()
     return {
         'article_id':article_detail.id,
         'title':article_detail.title,
-        'body':article_detail.html_body,
+        'html_body':article_detail.html_body,
         'toc':article_detail.toc,
         'category':article_detail.category.name,
+        'category_id':article_detail.category.id,
         'update_date':article_detail.update_date.strftime('%Y-%m-%d'),
         'tags':tag_list,
-        'next_id':next_id
+        'next_id':next_id,
+        'next_title':Article.objects.get(id = next_id).title,
+        'read_times':article_detail.read_times
     }
 
 # 获取所有tag
@@ -123,4 +128,5 @@ def getCategoryDetail(request):
 # 获取旋转框列表kai rou sou
 @easyPost
 def getCarrouselList(request):
+
     return {}
