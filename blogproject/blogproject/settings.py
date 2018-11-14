@@ -25,7 +25,7 @@ SECRET_KEY = '7a9ddkbv6(yw+z+oy6^++nwvg6rwi9a24h@^8%5()+^fcsjps)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -76,12 +76,21 @@ WSGI_APPLICATION = 'blogproject.wsgi.application'
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
-    'default': {
+   # 'default': {
+   #     'ENGINE': 'django.db.backends.mysql',
+        # 数据库名称
+   #     'NAME': 'blogproject',
+   #     'USER':'root',
+   #     'PASSWORD':'shange',
+   #     'HOST':'127.0.0.1',
+    #    'PORT':'3306'
+   # }
+	    'default': {
         'ENGINE': 'django.db.backends.mysql',
         # 数据库名称
-        'NAME': 'blogproject',
+        'NAME': 'blog',
         'USER':'root',
-        'PASSWORD':'shange',
+        'PASSWORD':'Root!!2008',
         'HOST':'127.0.0.1',
         'PORT':'3306'
     }
