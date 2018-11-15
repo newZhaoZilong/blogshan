@@ -90,7 +90,7 @@ DATABASES = {
         # 数据库名称
         'NAME': 'blog',
         'USER':'root',
-        'PASSWORD':'Root!!2008',
+        'PASSWORD':'Root!!2018',
         'HOST':'127.0.0.1',
         'PORT':'3306'
     }
