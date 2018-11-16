@@ -15,7 +15,7 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-print('BASE_DIR',BASE_DIR)
+print('BASE_DIR', BASE_DIR)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
@@ -23,10 +23,10 @@ print('BASE_DIR',BASE_DIR)
 SECRET_KEY = '7a9ddkbv6(yw+z+oy6^++nwvg6rwi9a24h@^8%5()+^fcsjps)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+# debug=False，django将不再加载静态文件
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
 
 # Application definition
 
@@ -43,7 +43,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-	'corsheaders.middleware.CorsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -71,31 +71,29 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'blogproject.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
 DATABASES = {
-   # 'default': {
-   #     'ENGINE': 'django.db.backends.mysql',
-        # 数据库名称
-   #     'NAME': 'blogproject',
-   #     'USER':'root',
-   #     'PASSWORD':'shange',
-   #     'HOST':'127.0.0.1',
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    # 数据库名称
+    #     'NAME': 'blogproject',
+    #     'USER':'root',
+    #     'PASSWORD':'shange',
+    #     'HOST':'127.0.0.1',
     #    'PORT':'3306'
-   # }
-	    'default': {
+    # }
+    'default': {
         'ENGINE': 'django.db.backends.mysql',
         # 数据库名称
         'NAME': 'blog',
-        'USER':'root',
-        'PASSWORD':'Root!!2018',
-        'HOST':'127.0.0.1',
-        'PORT':'3306'
+        'USER': 'root',
+        'PASSWORD': 'Root!!2018',
+        'HOST': '127.0.0.1',
+        'PORT': '3306'
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
@@ -115,7 +113,6 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/2.0/topics/i18n/
 
@@ -129,46 +126,47 @@ USE_L10N = True
 # 为False表示当前项目是不分时区的,为True是按utc时区
 USE_TZ = False
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
-#url是访问路径的前缀，可以设置访问路径
+# 加载尼玛啊,STATIC_ROOT只是django收集静态文件的路径,
+STATIC_ROOT = os.path.join(BASE_DIR,"collect_static")
+# url是访问路径的前缀，可以设置访问路径
 STATIC_URL = '/static/'
-#root是要加载静态资源的根路径
-STATIC_ROOT =  os.path.join(BASE_DIR,'collect_static')
 
-print('STATIC_ROOT',STATIC_ROOT)
+print('STATIC_ROOT', STATIC_ROOT)
 
 # 这个路径对应img的上传到哪儿个文件夹下,是绝对路径
+
 MEDIA_ROOT = os.path.join(STATIC_ROOT, 'blog/images')
-#这个url对应imgField返回的url路径的前缀,可以随便写,其实跟webpack的publicPath是一样的
+print('MEDIA_ROOT', MEDIA_ROOT)
+# 这个url对应imgField返回的url路径的前缀,可以随便写,其实跟webpack的publicPath是一样的
 MEDIA_URL = '/static/blog/images/'
 # 添加这个用于打印执行的sql语句
-#LOGGING = {
- #   'version': 1,
-  #  'disable_existing_loggers': False,
+# LOGGING = {
+#   'version': 1,
+#  'disable_existing_loggers': False,
 #    'handlers': {
 #        'console': {
 #            'class': 'logging.StreamHandler',
- #       },
- #   },
- #   'loggers': {
+#       },
+#   },
+#   'loggers': {
 #        'django.db.backends': {
- #           'handlers': ['console'],
-  #          'level': 'DEBUG' if DEBUG else 'INFO',
- #       },
+#           'handlers': ['console'],
+#          'level': 'DEBUG' if DEBUG else 'INFO',
+#       },
 #    },
-#}
+# }
 
 
-#跨域增加忽略
+# 跨域增加忽略
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_ALLOW_ALL = True
-#跨域允许的网站
+# 跨域允许的网站
 CORS_ORIGIN_WHITELIST = (
     '*'
 )
-#跨域允许的方法
+# 跨域允许的方法
 CORS_ALLOW_METHODS = (
     'DELETE',
     'GET',
@@ -178,7 +176,7 @@ CORS_ALLOW_METHODS = (
     'PUT',
     'VIEW',
 )
- #跨域允许的请求头
+# 跨域允许的请求头
 CORS_ALLOW_HEADERS = (
     'XMLHttpRequest',
     'X_FILENAME',
