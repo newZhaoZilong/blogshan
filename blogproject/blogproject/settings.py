@@ -132,16 +132,16 @@ USE_TZ = False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
-
+#url是访问路径的前缀，可以设置访问路径
 STATIC_URL = '/static/'
-
+#root是要加载静态资源的根路径
 STATIC_ROOT =  os.path.join(BASE_DIR,'collect_static')
 
 print('STATIC_ROOT',STATIC_ROOT)
 
 # 这个路径对应img的上传到哪儿个文件夹下,是绝对路径
-MEDIA_ROOT = os.path.join(BASE_DIR, 'blog/static/blog/images')
-#这个url对应imgField返回的url路径的前缀,可以随便写,其实跟webpack
+MEDIA_ROOT = os.path.join(STATIC_ROOT, 'blog/images')
+#这个url对应imgField返回的url路径的前缀,可以随便写,其实跟webpack的publicPath是一样的
 MEDIA_URL = '/static/blog/images/'
 # 添加这个用于打印执行的sql语句
 #LOGGING = {
