@@ -129,18 +129,24 @@ USE_TZ = False
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 # 加载尼玛啊,STATIC_ROOT只是django收集静态文件的路径,
-STATIC_ROOT = os.path.join(BASE_DIR,"collect_static")
-# url是访问路径的前缀，可以设置访问路径
-STATIC_URL = '/static/'
+mystatic_path = os.path.join(BASE_DIR,"collect_static/static")
 
-print('STATIC_ROOT', STATIC_ROOT)
+#STATIC_ROOT = mystatic_path
+# url是访问路径的前缀，可以设置访问路径
+#这个如果为/居然优先级比urls里的配置高，如果为/就会覆盖urls里的配置路径
+STATIC_URL = '/static/'
+#
+STATICFILES_DIRS = [
+	mystatic_path
+]
+
+#print('STATIC_ROOT', STATIC_ROOT)
 
 # 这个路径对应img的上传到哪儿个文件夹下,是绝对路径
-
-MEDIA_ROOT = os.path.join(STATIC_ROOT, 'blog/images')
-print('MEDIA_ROOT', MEDIA_ROOT)
+MEDIA_ROOT = os.path.join(mystatic_path, 'submit')
+#print('MEDIA_ROOT', MEDIA_ROOT)
 # 这个url对应imgField返回的url路径的前缀,可以随便写,其实跟webpack的publicPath是一样的
-MEDIA_URL = '/static/blog/images/'
+MEDIA_URL = '/static/submit/'
 # 添加这个用于打印执行的sql语句
 # LOGGING = {
 #   'version': 1,
