@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44dcfab8-df2f-4692-b3ab-154ed2a7645d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogproject/collect_static/static/submit/mywebpc.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/blogproject/collect_static/static/submit/mywebphone.png" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/blogproject/blogproject/settings.py" afterPath="$PROJECT_DIR$/blogproject/blogproject/settings.py" />
-    </list>
+    <list default="true" id="44dcfab8-df2f-4692-b3ab-154ed2a7645d" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,8 +113,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="378" />
-    <option name="y" value="24" />
+    <option name="x" value="-63" />
+    <option name="y" value="172" />
     <option name="width" value="1249" />
     <option name="height" value="725" />
   </component>
@@ -261,8 +255,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="378" y="24" width="1249" height="725" extended-state="0" />
-    <editor active="true" />
+    <frame x="-63" y="172" width="1249" height="725" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24938068" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />

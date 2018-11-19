@@ -108,6 +108,7 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
+
         .blogtime {
             display: flex;
             flex-direction: row;

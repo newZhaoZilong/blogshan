@@ -47,6 +47,7 @@
 <style lang="scss">
     @import "../scss/native.scss";
     .article-container {
+        width:100%;
         display: flex;
         /*justify-content: center;*/
     }
@@ -83,6 +84,12 @@
         }
         pre {
             padding: 1rem;
+        }
+        img{
+            max-width:80%;
+        }
+        strong{
+            color:red;
         }
     }
     .article-tag{
@@ -131,7 +138,7 @@
 
     //导航条的样式
     .article-toc {
-        width:16rem;
+        max-width:16rem;
         margin-left: 1.5rem;
         align-self: flex-start;
         /*flex: 1;*/

@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="94d8f779-e51d-4ada-9607-cf6421df6906" name="Default" comment="1.测试工具的提交2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.dev.conf.js" afterPath="$PROJECT_DIR$/config/webpack.dev.conf.js" />
-      <change beforePath="$PROJECT_DIR$/config/webpack.prod.conf.js" afterPath="$PROJECT_DIR$/config/webpack.prod.conf.js" />
-      <change beforePath="$PROJECT_DIR$/production/static/blog/css/bootstrap.css" afterPath="$PROJECT_DIR$/production/static/blog/css/bootstrap.css" />
-      <change beforePath="$PROJECT_DIR$/production/static/blog/images/2.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/static/blog/images/banner_top.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/static/blog/images/heimao-aaa.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/production/static/blog/pages/detail.js" afterPath="$PROJECT_DIR$/production/static/blog/pages/detail.js" />
-      <change beforePath="$PROJECT_DIR$/production/static/blog/pages/index.js" afterPath="$PROJECT_DIR$/production/static/blog/pages/index.js" />
-      <change beforePath="$PROJECT_DIR$/production/templates/blog/ceshi.html" afterPath="$PROJECT_DIR$/production/templates/blog/ceshi.html" />
-      <change beforePath="$PROJECT_DIR$/src/components/blogarticle.vue" afterPath="$PROJECT_DIR$/src/components/blogarticle.vue" />
-      <change beforePath="$PROJECT_DIR$/src/components/blogbreadcrumb.vue" afterPath="$PROJECT_DIR$/src/components/blogbreadcrumb.vue" />
-      <change beforePath="$PROJECT_DIR$/src/components/blogfooter.vue" afterPath="$PROJECT_DIR$/src/components/blogfooter.vue" />
-      <change beforePath="$PROJECT_DIR$/src/images/heimao.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/js/API.js" afterPath="$PROJECT_DIR$/src/js/API.js" />
-      <change beforePath="$PROJECT_DIR$/src/pages/detail/app.vue" afterPath="$PROJECT_DIR$/src/pages/detail/app.vue" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/app.vue" afterPath="$PROJECT_DIR$/src/pages/index/app.vue" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index/index.js" afterPath="$PROJECT_DIR$/src/pages/index/index.js" />
-    </list>
+    <list default="true" id="94d8f779-e51d-4ada-9607-cf6421df6906" name="Default" comment="1.测试工具的提交2" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -46,28 +27,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.prod.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/webpack.prod.conf.js">
+      <file leaf-file-name="baseA.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/baseA.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1122">
-              <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+            <state relative-caret-position="255">
+              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/production/static/blog/css/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="585" column="0" lean-forward="false" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="global.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/global.js">
+      <file leaf-file-name="baseB.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/baseB.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -76,21 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/global.scss">
+      <file leaf-file-name="blogarticlelist.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/blogarticlelist.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="native.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/scss/native.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="247">
+              <caret line="120" column="18" lean-forward="true" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -99,8 +60,8 @@
       <file leaf-file-name="app.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/detail/app.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="102">
+              <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
                 <element signature="e#410#468#0" expanded="true" />
               </folding>
@@ -108,31 +69,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogbreadcrumb.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/blogbreadcrumb.vue">
+      <file leaf-file-name="native.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scss/native.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+            <state relative-caret-position="204">
+              <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blogarticle.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="blogarticle.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/blogarticle.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blogfooter.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/blogfooter.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="69" lean-forward="false" selection-start-line="3" selection-start-column="69" selection-end-line="3" selection-end-column="69" />
+            <state relative-caret-position="1099">
+              <caret line="134" column="13" lean-forward="false" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -152,7 +103,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>carousel-item-left</find>
       <find>directionalClassName</find>
       <find>ClassName</find>
       <find>slidEvent</find>
@@ -182,15 +132,15 @@
       <find>breadcrumb</find>
       <find>min-width</find>
       <find>container</find>
+      <find>item-content-title</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/production/static/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/production/static/js/popper.js" />
         <option value="$PROJECT_DIR$/src/svgs/tag.svg" />
         <option value="$PROJECT_DIR$/production/templates/mytest.html" />
@@ -230,17 +180,18 @@
         <option value="$PROJECT_DIR$/src/components/blogcloud.vue" />
         <option value="$PROJECT_DIR$/src/js/global.js" />
         <option value="$PROJECT_DIR$/src/js/Utils.js" />
-        <option value="$PROJECT_DIR$/src/components/blogarticlelist.vue" />
         <option value="$PROJECT_DIR$/config/webpack.dev.conf.js" />
         <option value="$PROJECT_DIR$/src/js/API.js" />
         <option value="$PROJECT_DIR$/config/webpack.prod.conf.js" />
         <option value="$PROJECT_DIR$/src/pages/index/index.js" />
         <option value="$PROJECT_DIR$/src/components/blogbreadcrumb.vue" />
-        <option value="$PROJECT_DIR$/src/components/blogarticle.vue" />
         <option value="$PROJECT_DIR$/src/components/blogfooter.vue" />
         <option value="$PROJECT_DIR$/src/pages/index/app.vue" />
-        <option value="$PROJECT_DIR$/src/pages/detail/app.vue" />
         <option value="$PROJECT_DIR$/production/static/blog/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/templates/baseA.html" />
+        <option value="$PROJECT_DIR$/src/pages/detail/app.vue" />
+        <option value="$PROJECT_DIR$/src/components/blogarticlelist.vue" />
+        <option value="$PROJECT_DIR$/src/components/blogarticle.vue" />
       </list>
     </option>
   </component>
@@ -262,10 +213,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-85" />
-    <option name="y" value="70" />
+    <option name="x" value="492" />
+    <option name="y" value="65" />
     <option name="width" value="1383" />
-    <option name="height" value="683" />
+    <option name="height" value="684" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -282,7 +233,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,61 +248,6 @@
             <path>
               <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="blogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -360,18 +255,6 @@
               <item name="blogweb" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blogweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
@@ -399,11 +282,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="blogweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="blogweb" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -545,6 +434,7 @@
       <workItem from="1542288590567" duration="4044000" />
       <workItem from="1542362815270" duration="4057000" />
       <workItem from="1542392447329" duration="371000" />
+      <workItem from="1542616519758" duration="3482000" />
     </task>
     <task id="LOCAL-00001" summary="1.测试工具的提交">
       <created>1541209766575</created>
@@ -564,17 +454,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315031000" />
+    <option name="totallyTimeSpent" value="318513000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-85" y="70" width="1383" height="683" extended-state="0" />
+    <frame x="492" y="65" width="1383" height="684" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18066914" sideWeight="0.58079267" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23655914" sideWeight="0.50446427" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3523739" sideWeight="0.4192073" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23655914" sideWeight="0.4955357" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3523739" sideWeight="0.4192073" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2535211" sideWeight="0.4969419" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8266871" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -655,33 +546,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/pages/detail/app.vue</url>
-          <line>12</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/images/home.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/linux.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/meizi.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/meizi-2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -693,11 +562,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/redis.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/SSH.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -724,107 +588,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/production/static/blog/images/banner_top.jpg" />
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/app.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/book.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/calendar.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/coder.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/app.png" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/book.svg" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/calendar.svg" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/coder.png" />
     <entry file="file://$PROJECT_DIR$/production/static/blog/images/heimao-aaa.png" />
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/gunicorn-1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/linux.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/meizi.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/meizi-2.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/phantomjs.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/redis.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/study-Linux913.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/summary.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/youdao.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/templates/blog/baseB.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/templates/blog/ceshi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/templates/blog/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/templates/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/gunicorn-1.png" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/linux.png" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/meizi.png" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/meizi-2.png" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/phantomjs.png" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/redis.png" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/study-Linux913.jpg" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/summary.png" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/youdao.png" />
+    <entry file="file://$PROJECT_DIR$/production/templates/blog/baseB.html" />
+    <entry file="file://$PROJECT_DIR$/production/templates/blog/ceshi.html" />
+    <entry file="file://$PROJECT_DIR$/production/templates/blog/detail.html" />
+    <entry file="file://$PROJECT_DIR$/production/templates/blog/index.html" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/page.router.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -867,26 +649,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/images/SSH.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/js/ceshi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/blogarticle.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" column="5" lean-forward="false" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/production/static/blog/images/SSH.png" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/js/ceshi.js" />
     <entry file="file://$PROJECT_DIR$/src/components/blogfooter.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -895,21 +659,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.dev.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="83" column="6" lean-forward="false" selection-start-line="83" selection-start-column="6" selection-end-line="83" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/scss/native.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.dev.conf.js" />
     <entry file="file://$PROJECT_DIR$/src/scss/global.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -918,6 +668,8 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/webpack.prod.conf.js" />
+    <entry file="file://$PROJECT_DIR$/production/static/blog/css/bootstrap.css" />
     <entry file="file://$PROJECT_DIR$/src/js/global.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -926,19 +678,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/SSH.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/blogbreadcrumb.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/webpack.prod.conf.js">
+    <entry file="file://$PROJECT_DIR$/templates/baseA.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1122">
-          <caret line="66" column="6" lean-forward="false" selection-start-line="66" selection-start-column="6" selection-end-line="66" selection-end-column="6" />
+        <state relative-caret-position="255">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/baseB.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/detail/app.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" lean-forward="true" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding>
+            <element signature="e#410#468#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -950,20 +725,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/detail/app.vue">
+    <entry file="file://$PROJECT_DIR$/src/components/blogarticlelist.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <element signature="e#410#468#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="120" column="18" lean-forward="true" selection-start-line="120" selection-start-column="18" selection-end-line="120" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/production/static/blog/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/src/scss/native.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="585" column="0" lean-forward="false" selection-start-line="585" selection-start-column="0" selection-end-line="585" selection-end-column="0" />
+        <state relative-caret-position="204">
+          <caret line="12" column="20" lean-forward="false" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/blogarticle.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1099">
+          <caret line="134" column="13" lean-forward="false" selection-start-line="134" selection-start-column="13" selection-end-line="134" selection-end-column="13" />
           <folding />
         </state>
       </provider>
