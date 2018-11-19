@@ -25,6 +25,7 @@ SECRET_KEY = '7a9ddkbv6(yw+z+oy6^++nwvg6rwi9a24h@^8%5()+^fcsjps)'
 # SECURITY WARNING: don't run with debug turned on in production!
 # debug=False，django将不再加载静态文件
 DEBUG = False
+# DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
