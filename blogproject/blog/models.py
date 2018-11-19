@@ -54,7 +54,7 @@ class Article(models.Model):
     # 文章标签
     tags = models.ManyToManyField(Tag, verbose_name='标签')
 
-    toc = models.TextField('导航', max_length=400, editable=False)
+    toc = models.TextField('导航',editable=False)
     # Blog阅读次数
     read_times = models.PositiveIntegerField(verbose_name=u'阅读次数', default=0)
 
